@@ -1,7 +1,7 @@
 # Repository for DST 490
 **Semester: Fall 2026**
 
-- Files are organized by the day that they occur in the [course calendar]([LINK HERE](https://docs.google.com/document/d/1gkt2Nr6lZZy2YuTlNgBIMmQU8GYxrItWnLIzjUeiTg0/edit?tab=t.0#bookmark=id.v39ch8ejcl7j)).
+- Files are organized by the day that they occur in the [course calendar](https://docs.google.com/document/d/1gkt2Nr6lZZy2YuTlNgBIMmQU8GYxrItWnLIzjUeiTg0/edit?tab=t.0#bookmark=id.v39ch8ejcl7j).
 
 
 - **To track changes in the upstream repo**, use the following command in the terminal (one time only:

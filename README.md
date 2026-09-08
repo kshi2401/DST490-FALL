@@ -4,7 +4,7 @@
 - Files are organized by the day that they occur in the [course calendar](https://docs.google.com/document/d/1gkt2Nr6lZZy2YuTlNgBIMmQU8GYxrItWnLIzjUeiTg0/edit?tab=t.0#bookmark=id.v39ch8ejcl7j).
 
 
-- **To track changes in the upstream repo**, use the following command in the terminal (one time only:
+- **To track changes in the upstream repo**, use the following command in the terminal (one time only):
 ```
 git remote add upstream https://github.com/AugsburgDST490/2026SEM1_Files.git
 git remote set-url --push upstream DISABLED  # To disable upstream pushes

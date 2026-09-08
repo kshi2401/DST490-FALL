@@ -3,6 +3,21 @@
 
 - Files are organized by the day that they occur in the [course calendar](https://docs.google.com/document/d/1gkt2Nr6lZZy2YuTlNgBIMmQU8GYxrItWnLIzjUeiTg0/edit?tab=t.0#bookmark=id.v39ch8ejcl7j).
 
+- **To make a fork the repo**, use the following command in the RStudio console (one time only):
+
+```r
+usethis::create_from_github(
+  "https://github.com/AugsburgDST490/2026SEM1_Files.git",
+  fork = TRUE,
+  destdir = "YOUR_LOCATION") # <-- your location on the computer goes here
+```
+
+What this does is:
+
+- Makes a fork of the classroom files repo onto your github.
+- Clones the copy of the repository to your local computer.
+- Configures your repository to pull and push **onto your repository only**
+- Allows you to track my classroom repository for changes.
 
 - **To track changes in the upstream repo**, use the following command in the terminal (one time only):
 ```

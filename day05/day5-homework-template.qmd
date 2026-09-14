@@ -1,0 +1,79 @@
+---
+title: "Day 5 Homework, DST 490"
+author: "YOUR NAME HERE AND YOUR GROUP MEMBERS NAMES"
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+```{r, setup}
+knitr::opts_chunk$set(echo=TRUE)
+library(mdsr)
+library(tidyverse)
+#  tidy=FALSE,     # display code as typed
+#  size="small")   # slightly smaller font for code
+```
+
+Link to google doc for instructions: [LINK](https://docs.google.com/document/d/1USGsNxnspHq3PXqUeuWznt-XdhEi6xsRb1I9FxGtE2M/edit?usp=sharing)
+
+
+<div style="background-color: #f0f8ff; border-left: 5px solid #007acc; padding: 10px;">
+## (20 points) Code of Ethics
+I'm interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined [Code of Ethics](https://docs.google.com/document/d/1lMvzPTGUAaMnH0KPibShQ1ualuo8uqICCexkh8zmsW8/edit?usp=sharing).  Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.
+
+
+TYPE YOUR RESPONSE HERE
+
+</div>
+
+
+## (50 points) 1. USDA Data Visualization Portfolio
+Use the USDA datasets (worked on in class) to come up with a new visualization of the data with the variables provided, making sure you use joins. The visualization should incorporate different variables than what we worked on in class. Create a data-rich visualization as possible, according to the following steps in the quarto file.
+
+
+**Your group may all work together and submit the same visualization, but each person needs to submit by pushing to their repo.**
+
+
+```{r}
+# Location of the excel file:
+url <- 'https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/48747/Unemployment.xlsx?v=58453'
+
+# Name of the file to save:
+destfile <- "Unemployment.xlsx"
+
+# Download
+curl::curl_download(url, destfile)
+unemployment <- readxl::read_excel(destfile,
+                                        skip = 4,
+                                        sheet = 'UnemploymentMedianIncome')
+
+glimpse(unemployment)
+
+```
+
+```{r}
+# Location of the excel file:
+url <- 'https://ers.usda.gov/sites/default/files/_laserfiche/DataFiles/48747/Education.xlsx?v=14208'
+
+# Name of the file to save:
+destfile <- "Education.xlsx"
+
+# Download
+curl::curl_download(url, destfile)
+education <- readxl::read_excel(destfile,
+                                        skip = 3,
+                                        sheet = 'Education 1970 to 2022')
+
+glimpse(education)
+
+```
+
+Now working with your group:
+
+(1) Find a way to join the `unemployment` and `education` datasets together.
+(2) Create an informative data visualization.
+
+```{r}
+# Insert code here
+```

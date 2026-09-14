@@ -19,10 +19,10 @@ What this does is:
 - Configures your repository to pull and push **onto your repository only**
 - Allows you to track my classroom repository for changes.
 
-- **To track changes in the upstream repo**, use the following command in the terminal (one time only):
+- **Next: set pushes to your github repo (not mine, the one you forked):**, use the following command in the terminal (one time only):
 ```
-git remote add upstream https://github.com/AugsburgDST490/2026SEM1_Files.git
-git remote set-url --push upstream DISABLED  # To disable upstream pushes
+git push -u origin main
+
 ```
 
 - **To check** use the following command in the terminal:
@@ -33,11 +33,28 @@ git remote -v  # You should see `origin` (your fork) and `upstream` (the class r
 - **To update your fork with any changes:** Do this before beginning new work and whenever they want any updates. **Save all local files.**  Then run the following:
 
 ```
+# Stage files:
+git add file1.qmd file2.qmd # list all files
+
+# Alternatively you can do:
+# git add .   # optional method
+
+Commit:
+git commit -m "Add data cleaning script"
+
+Send:
+git push origin main
+
+# Check to see if there is upstream work:
+git fetch upstream
+
+# See a list of incoming commits that exist on upstream but not locally
+git log HEAD..upstream/main --oneline
+
+# Pull the work in:
+git pull upstream main
+
 git stash  # This safely stores staged / unstaged changes
-git checkout main  # It may already say you are on main
-git fetch upstream  # Ddownloads newest commits without automatically merging them into your code.
-git rebase upstream/main # Starts to merge
-git stash pop  # Brings your work back
 ```
 
 - **Merge conflicts:** You *may* get a merge conflict in the rebase if I've updated a file that you are working on. You will need to edit them accordingly:

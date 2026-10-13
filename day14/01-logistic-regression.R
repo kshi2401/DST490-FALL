@@ -3,7 +3,7 @@ library(tidymodels)
 tidymodels_prefer()   ### Set any conflicts to prefer tidymodels
 
 ### Load in the data
-data_file <- here::here("day15","data","employment_education.Rda")
+data_file <- here::here("day14","data","employment_education.Rda")
 load(data_file)
 
 

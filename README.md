@@ -3,7 +3,7 @@
 
 - Files are organized by the day that they occur in the [course calendar](https://docs.google.com/document/d/1gkt2Nr6lZZy2YuTlNgBIMmQU8GYxrItWnLIzjUeiTg0/edit?tab=t.0#bookmark=id.v39ch8ejcl7j).
 
-- **To make a fork the repo**, use the following command in the RStudio console (one time only)
+- **To make a fork of the repo**, use the following command in the RStudio console (one time only):
 
 ```r
 usethis::create_from_github(

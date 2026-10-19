@@ -1,0 +1,17 @@
+{
+  "hash": "5d6efa67c3c58c046d2f2cfd24300c09",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Median Household Income by Zip Code in Hennepin County\"\nauthor: \"Khalid Shire\"\ndate: \"2026-10-18\"\ncategories: [maps, hennepin]\n---\n\nThis map shows median household income for each zip code in Hennepin County. Darker purple means higher income. Grey zips have no data, mostly PO Box zip codes.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n## (20 points) Code of Ethics for Data Visualization Portfolio Entry:\n\nI'm interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined [Code of Ethics](https://docs.google.com/document/d/1lMvzPTGUAaMnH0KPibShQ1ualuo8uqICCexkh8zmsW8/edit?usp=sharing). Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\n\nAI was helpful to me in structuring this post and leading me to the idea of using the variable zip code in the Hennepoin County data. It was also helpful enough to walk me through a couple of bugs I encountered.\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

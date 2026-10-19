@@ -1,0 +1,40 @@
+---
+title: "Median Household Income by Zip Code in Hennepin County"
+author: "Khalid Shire"
+date: "2026-10-18"
+categories: [maps, hennepin]
+---
+
+This map shows median household income for each zip code in Hennepin County. Darker purple means higher income. Grey zips have no data, mostly PO Box zip codes.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(sf)
+library(zipcodeR)
+
+hennepin_zips <- search_county("Hennepin", "MN")
+
+zips <- st_read(dsn = "../../../day11/shapefiles/Zip_Codes", layer = "Zip_Codes", quiet = TRUE)
+
+zip_map <- zips |>
+  left_join(hennepin_zips, by = c("NAME_TXT" = "zipcode"))
+
+ggplot(zip_map) +
+  geom_sf(aes(fill = median_household_income)) +
+  scale_fill_gradient(low = "lavender", high = "purple4", na.value = "grey90") +
+  labs(
+    title = "Median Household Income by Zip Code in Hennepin County",
+    fill = "Median household income ($)"
+  ) +
+  theme_void()
+```
+
+## (20 points) Code of Ethics for Data Visualization Portfolio Entry:
+
+I'm interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined [Code of Ethics](https://docs.google.com/document/d/1lMvzPTGUAaMnH0KPibShQ1ualuo8uqICCexkh8zmsW8/edit?usp=sharing). Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.
+
+AI was helpful to me in structuring this post and leading me to the idea of using the variable zip code in the Hennepoin County data. It was also helpful enough to walk me through a couple of bugs I encountered.

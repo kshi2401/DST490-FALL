@@ -1,14 +1,23 @@
 ---
-title: "Data-Visualization-Portfolio"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Khalid Shire"
+about:
+  template: jolla
+  #image-width: 20em
+  #image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/khalid-shire/
+    - icon: github
+      text: Github
+      href: https://github.com/kshi2401
+    - icon: envelope
+      text: Contact me
+      href: mailto:khalid.shire@outlook.com
+
+
 ---
+
+I am a current Junior Computer Science & Data Science student at Augsburg University, Interested in backend and cloud-focused software engineering, with a long-term path toward ML infrastructure.
 
 

@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data-Visualization-Portfolio",
+    "title": "Khalid Shire",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 11, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "I am a current Junior Computer Science & Data Science student at Augsburg University, Interested in backend and cloud-focused software engineering, with a long-term path toward ML infrastructure."
   },
   {
     "objectID": "posts/01_post-with-code/index.html",
@@ -16,15 +16,36 @@
   {
     "objectID": "posts/00_welcome/index.html",
     "href": "posts/00_welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Welcome To My Portfolio",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\nReview the slides at this link: LINK\nOptional: You can publish this to your own github, although it does take some work. Some information is found here: LINK\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is where I’ll post the data visualizations I build for my Data Visualization class at Augsburg.\nComing up here: maps of Hennepin County, a look at how different ways of dividing the county change the story, and whatever else I learn along the way."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "Long term, I want to work in ML infrastructure and MLOps: deployment pipelines, distributed systems, and production ML. This portfolio is where I’ll show the visualization side of that."
+  },
+  {
+    "objectID": "about.html#what-im-aiming-for",
+    "href": "about.html#what-im-aiming-for",
+    "title": "About",
+    "section": "",
+    "text": "Long term, I want to work in ML infrastructure and MLOps: deployment pipelines, distributed systems, and production ML. This portfolio is where I’ll show the visualization side of that."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html",
+    "href": "posts/zip-code-map/index.html",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "",
+    "text": "This map shows median household income for each zip code in Hennepin County. Darker purple means higher income. Grey zips have no data, mostly PO Box zip codes."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "href": "posts/zip-code-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:",
+    "text": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:\nI’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nAI was helpful to me in structuring this post and leading me to the idea of using the variable zip code in the Hennepoin County data. It was also helpful enough to walk me through a couple of bugs I encountered."
   }
 ]

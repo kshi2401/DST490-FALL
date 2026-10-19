@@ -169,7 +169,29 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This map shows median household income for each zip code in Hennepin County. Darker purple means higher income. Grey zips have no data, mostly PO Box zip codes.</p>
+<section id="what-this-map-shows" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-map-shows">What this map shows</h2>
+<p>This map shows median household income for each zip code in Hennepin County, Minnesota. Each zip code is colored by its median household income. Light lavender means lower income and dark purple means higher income. Grey zip codes have no income data, mostly because they are PO Box zip codes where nobody lives.</p>
+</section>
+<section id="why-i-made-it" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-made-it">Why I made it</h2>
+<p>I wanted to see how income differs across the county, since income is one of the factors that could help explain patterns in my group’s Hennepin County case data. My case data is recorded by zip code, so a zip code map lets me put the two side by side later.</p>
+</section>
+<section id="how-to-read-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-read-it">How to read it</h2>
+<ul>
+<li>Compare colors, not exact numbers. The legend shows the range, and darker means higher.</li>
+<li>A zip code is an area, not a person. A median income describes the middle household in that zip, so individual households can be much higher or lower.</li>
+<li>Grey does not mean zero. It means the data is missing.</li>
+</ul>
+</section>
+<section id="what-i-noticed" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-noticed">What I noticed</h2>
+<p>The darkest zip codes are in the western and northwestern parts of the county, also one narrow zipcode in the south that stands out as the highest of all of them. The lightest zip codes are near along the eastern side of the county, where the zipcodes are small and closer together, which maybe suggests lower median incomes there.</p>
+</section>
+<section id="where-the-data-comes-from" class="level2">
+<h2 class="anchored" data-anchor-id="where-the-data-comes-from">Where the data comes from</h2>
+<p>The zip code shapes come from the Hennepin County shapefile my professor provided. The income numbers come from the <code>zipcodeR</code> package in R.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -179,6 +201,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+</section>
 <section id="points-code-of-ethics-for-data-visualization-portfolio-entry" class="level2">
 <h2 class="anchored" data-anchor-id="points-code-of-ethics-for-data-visualization-portfolio-entry">(20 points) Code of Ethics for Data Visualization Portfolio Entry:</h2>
 <p>I’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined <a href="https://docs.google.com/document/d/1lMvzPTGUAaMnH0KPibShQ1ualuo8uqICCexkh8zmsW8/edit?usp=sharing">Code of Ethics</a>. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.</p>

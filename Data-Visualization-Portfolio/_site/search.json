@@ -39,7 +39,7 @@
     "href": "posts/zip-code-map/index.html",
     "title": "Median Household Income by Zip Code in Hennepin County",
     "section": "",
-    "text": "This map shows median household income for each zip code in Hennepin County. Darker purple means higher income. Grey zips have no data, mostly PO Box zip codes."
+    "text": "This map shows median household income for each zip code in Hennepin County, Minnesota. Each zip code is colored by its median household income. Light lavender means lower income and dark purple means higher income. Grey zip codes have no income data, mostly because they are PO Box zip codes where nobody lives."
   },
   {
     "objectID": "posts/zip-code-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
@@ -47,5 +47,40 @@
     "title": "Median Household Income by Zip Code in Hennepin County",
     "section": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:",
     "text": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:\nI’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nAI was helpful to me in structuring this post and leading me to the idea of using the variable zip code in the Hennepoin County data. It was also helpful enough to walk me through a couple of bugs I encountered."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html#what-this-map-shows",
+    "href": "posts/zip-code-map/index.html#what-this-map-shows",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "",
+    "text": "This map shows median household income for each zip code in Hennepin County, Minnesota. Each zip code is colored by its median household income. Light lavender means lower income and dark purple means higher income. Grey zip codes have no income data, mostly because they are PO Box zip codes where nobody lives."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html#why-i-made-it",
+    "href": "posts/zip-code-map/index.html#why-i-made-it",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "Why I made it",
+    "text": "Why I made it\nI wanted to see how income differs across the county, since income is one of the factors that could help explain patterns in my group’s Hennepin County case data. My case data is recorded by zip code, so a zip code map lets me put the two side by side later."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html#how-to-read-it",
+    "href": "posts/zip-code-map/index.html#how-to-read-it",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "How to read it",
+    "text": "How to read it\n\nCompare colors, not exact numbers. The legend shows the range, and darker means higher.\nA zip code is an area, not a person. A median income describes the middle household in that zip, so individual households can be much higher or lower.\nGrey does not mean zero. It means the data is missing."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html#what-i-noticed",
+    "href": "posts/zip-code-map/index.html#what-i-noticed",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "What I noticed",
+    "text": "What I noticed\nThe darkest zip codes are in the western and northwestern parts of the county, also one narrow zipcode in the south that stands out as the highest of all of them. The lightest zip codes are near along the eastern side of the county, where the zipcodes are small and closer together, which maybe suggests lower median incomes there."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html#where-the-data-comes-from",
+    "href": "posts/zip-code-map/index.html#where-the-data-comes-from",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "Where the data comes from",
+    "text": "Where the data comes from\nThe zip code shapes come from the Hennepin County shapefile my professor provided. The income numbers come from the zipcodeR package in R."
   }
 ]

@@ -5,7 +5,27 @@ date: "2026-10-18"
 categories: [maps, hennepin]
 ---
 
-This map shows median household income for each zip code in Hennepin County. Darker purple means higher income. Grey zips have no data, mostly PO Box zip codes.
+## What this map shows
+
+This map shows median household income for each zip code in Hennepin County, Minnesota. Each zip code is colored by its median household income. Light lavender means lower income and dark purple means higher income. Grey zip codes have no income data, mostly because they are PO Box zip codes where nobody lives.
+
+## Why I made it
+
+I wanted to see how income differs across the county, since income is one of the factors that could help explain patterns in my group's Hennepin County case data. My case data is recorded by zip code, so a zip code map lets me put the two side by side later.
+
+## How to read it
+
+- Compare colors, not exact numbers. The legend shows the range, and darker means higher.
+- A zip code is an area, not a person. A median income describes the middle household in that zip, so individual households can be much higher or lower.
+- Grey does not mean zero. It means the data is missing.
+
+## What I noticed
+
+The darkest zip codes are in the western and northwestern parts of the county, also one narrow zipcode in the south that stands out as the highest of all of them. The lightest zip codes are near along the eastern side of the county, where the zipcodes are small and closer together, which maybe suggests lower median incomes there.
+
+## Where the data comes from
+
+The zip code shapes come from the Hennepin County shapefile my professor provided. The income numbers come from the `zipcodeR` package in R.
 
 ```{r}
 #| echo: false

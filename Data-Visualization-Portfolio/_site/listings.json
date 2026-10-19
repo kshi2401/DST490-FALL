@@ -1,9 +1,11 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/posts.html",
     "items": [
-      "/posts/01_post-with-code/index.html",
-      "/posts/00_welcome/index.html"
+      "/posts/00_welcome/index.html",
+      "/posts/interactive-zip-map/index.html",
+      "/posts/zip-code-map/index.html",
+      "/posts/01_post-with-code/index.html"
     ]
   }
 ]

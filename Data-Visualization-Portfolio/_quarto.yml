@@ -10,9 +10,10 @@ website:
         text: Home
       - href: about.qmd
         text: About
+      - href: posts.qmd
+        text: Posts
   
     right:
-      - about.qmd
       - icon: github
         href: https://github.com/kshi2401
       - icon: linkedin

@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Welcome To My Portfolio\n\n\n\nwelcome\n\nmaps\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Hennepin County Zip Codes: An Interactive Map\n\n\n\nmaps\n\nhennepin\n\ninteractive\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nMedian Household Income by Zip Code in Hennepin County\n\n\n\nmaps\n\nhennepin\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Khalid Shire",
@@ -7,46 +14,11 @@
     "text": "I am a current Junior Computer Science & Data Science student at Augsburg University, Interested in backend and cloud-focused software engineering, with a long-term path toward ML infrastructure."
   },
   {
-    "objectID": "posts/01_post-with-code/index.html",
-    "href": "posts/01_post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/00_welcome/index.html",
-    "href": "posts/00_welcome/index.html",
-    "title": "Welcome To My Portfolio",
-    "section": "",
-    "text": "This is where I’ll post the data visualizations I build for my Data Visualization class at Augsburg.\nComing up here: maps of Hennepin County, a look at how different ways of dividing the county change the story, and whatever else I learn along the way."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Long term, I want to work in ML infrastructure and MLOps: deployment pipelines, distributed systems, and production ML. This portfolio is where I’ll show the visualization side of that."
-  },
-  {
-    "objectID": "about.html#what-im-aiming-for",
-    "href": "about.html#what-im-aiming-for",
-    "title": "About",
-    "section": "",
-    "text": "Long term, I want to work in ML infrastructure and MLOps: deployment pipelines, distributed systems, and production ML. This portfolio is where I’ll show the visualization side of that."
-  },
-  {
     "objectID": "posts/zip-code-map/index.html",
     "href": "posts/zip-code-map/index.html",
     "title": "Median Household Income by Zip Code in Hennepin County",
     "section": "",
     "text": "This map shows median household income for each zip code in Hennepin County, Minnesota. Each zip code is colored by its median household income. Light lavender means lower income and dark purple means higher income. Grey zip codes have no income data, mostly because they are PO Box zip codes where nobody lives."
-  },
-  {
-    "objectID": "posts/zip-code-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
-    "href": "posts/zip-code-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
-    "title": "Median Household Income by Zip Code in Hennepin County",
-    "section": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:",
-    "text": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:\nI’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nAI was helpful to me in structuring this post and leading me to the idea of using the variable zip code in the Hennepoin County data. It was also helpful enough to walk me through a couple of bugs I encountered."
   },
   {
     "objectID": "posts/zip-code-map/index.html#what-this-map-shows",
@@ -82,5 +54,89 @@
     "title": "Median Household Income by Zip Code in Hennepin County",
     "section": "Where the data comes from",
     "text": "Where the data comes from\nThe zip code shapes come from the Hennepin County shapefile my professor provided. The income numbers come from the zipcodeR package in R."
+  },
+  {
+    "objectID": "posts/zip-code-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "href": "posts/zip-code-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "title": "Median Household Income by Zip Code in Hennepin County",
+    "section": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:",
+    "text": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:\nI’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nAI was helpful to me in structuring this post and leading me to the idea of using the variable zip code in the Hennepoin County data. It was also helpful enough to walk me through a couple of bugs I encountered."
+  },
+  {
+    "objectID": "posts/01_post-with-code/index.html",
+    "href": "posts/01_post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/00_welcome/index.html",
+    "href": "posts/00_welcome/index.html",
+    "title": "Welcome To My Portfolio",
+    "section": "",
+    "text": "This is where I’ll post the data visualizations I build for my Data Visualization class at Augsburg.\nComing up here: maps of Hennepin County, a look at how different ways of dividing the county change the story, and whatever else I learn along the way."
+  },
+  {
+    "objectID": "posts/interactive-zip-map/index.html",
+    "href": "posts/interactive-zip-map/index.html",
+    "title": "Exploring Hennepin County Zip Codes: An Interactive Map",
+    "section": "",
+    "text": "This is an interactive version of my zip code map of Hennepin County. Hover over any zip code to see its number and median household income. Use the toolbar in the top right to zoom in and pan around, which helps with the small zip codes on the east side that are hard to see on a static map."
+  },
+  {
+    "objectID": "posts/interactive-zip-map/index.html#what-this-shows",
+    "href": "posts/interactive-zip-map/index.html#what-this-shows",
+    "title": "Exploring Hennepin County Zip Codes: An Interactive Map",
+    "section": "",
+    "text": "This is an interactive version of my zip code map of Hennepin County. Hover over any zip code to see its number and median household income. Use the toolbar in the top right to zoom in and pan around, which helps with the small zip codes on the east side that are hard to see on a static map."
+  },
+  {
+    "objectID": "posts/interactive-zip-map/index.html#search-the-data",
+    "href": "posts/interactive-zip-map/index.html#search-the-data",
+    "title": "Exploring Hennepin County Zip Codes: An Interactive Map",
+    "section": "Search the data",
+    "text": "Search the data\nThe table below has the same numbers. You can sort any column by clicking its header, or type in the search box to find a zip code."
+  },
+  {
+    "objectID": "posts/interactive-zip-map/index.html#how-to-read-it",
+    "href": "posts/interactive-zip-map/index.html#how-to-read-it",
+    "title": "Exploring Hennepin County Zip Codes: An Interactive Map",
+    "section": "How to read it",
+    "text": "How to read it\n\nDarker purple means higher median household income.\nGrey zip codes have no data, mostly PO Box zip codes.\nA median describes the middle household in a zip code, so individual households can be much higher or lower."
+  },
+  {
+    "objectID": "posts/interactive-zip-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "href": "posts/interactive-zip-map/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "title": "Exploring Hennepin County Zip Codes: An Interactive Map",
+    "section": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:",
+    "text": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:\nI’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nAI was helpful to me in structuring this post especially helping me walk through a couple of bugs when I initially tried creating the searchable data table, I got the inspiration from my Statistical Modeling class and in the beginning i ran into many bugs trying to recreate it but AI was able to help me troubleshoot them. It also helped me read in the data and navigate to it."
+  },
+  {
+    "objectID": "PortfolioEthics.html",
+    "href": "PortfolioEthics.html",
+    "title": "Code of Ethics for Data Visualization Portfolio",
+    "section": "",
+    "text": "Semester: Fall 2026\nYou may copy this for each portfolio entry, adding to this file as the semester progresses\n\n\nI’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nTYPE YOUR RESPONSE HERE"
+  },
+  {
+    "objectID": "PortfolioEthics.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "href": "PortfolioEthics.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "title": "Code of Ethics for Data Visualization Portfolio",
+    "section": "",
+    "text": "I’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nTYPE YOUR RESPONSE HERE"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Long term, I want to work in ML infrastructure and MLOps: deployment pipelines, distributed systems, and production ML. This portfolio is where I’ll show the visualization side of that."
+  },
+  {
+    "objectID": "about.html#what-im-aiming-for",
+    "href": "about.html#what-im-aiming-for",
+    "title": "About",
+    "section": "",
+    "text": "Long term, I want to work in ML infrastructure and MLOps: deployment pipelines, distributed systems, and production ML. This portfolio is where I’ll show the visualization side of that."
   }
 ]

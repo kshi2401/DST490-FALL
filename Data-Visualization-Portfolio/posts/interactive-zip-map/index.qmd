@@ -1,0 +1,74 @@
+---
+title: "Exploring Hennepin County Zip Codes: An Interactive Map"
+author: "Khalid Shire"
+date: "2026-10-18"
+categories: [maps, hennepin, interactive]
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(sf)
+library(zipcodeR)
+library(plotly)
+library(DT)
+
+hennepin_zips <- search_county("Hennepin", "MN")
+
+zips <- st_read(dsn = "../../../day11/shapefiles/Zip_Codes", layer = "Zip_Codes", quiet = TRUE)
+
+zip_map <- zips |>
+  left_join(hennepin_zips, by = c("NAME_TXT" = "zipcode")) |>
+  mutate(label = paste0("Zip: ", NAME_TXT,
+                        "<br>Median income: $", median_household_income))
+
+p <- ggplot(zip_map) +
+  geom_sf(aes(fill = median_household_income, text = label)) +
+  scale_fill_gradient(low = "lavender", high = "purple4", na.value = "grey90") +
+  labs(
+    title = "Median Household Income by Zip Code",
+    fill = "Median income ($)"
+  ) +
+  theme_void()
+```
+
+## What this shows
+
+This is an interactive version of my zip code map of Hennepin County. Hover over any zip code to see its number and median household income. Use the toolbar in the top right to zoom in and pan around, which helps with the small zip codes on the east side that are hard to see on a static map.
+
+```{r}
+#| echo: false
+#| warning: false
+
+ggplotly(p, tooltip = "text")
+```
+
+## Search the data
+
+The table below has the same numbers. You can sort any column by clicking its header, or type in the search box to find a zip code.
+
+```{r}
+#| echo: false
+
+hennepin_zips |>
+  filter(!is.na(median_household_income)) |>
+  select(Zip = zipcode, City = major_city, Population = population,
+         `Median income` = median_household_income,
+         `Median home value` = median_home_value) |>
+  datatable(rownames = FALSE)
+```
+
+## How to read it
+
+- Darker purple means higher median household income.
+- Grey zip codes have no data, mostly PO Box zip codes.
+- A median describes the middle household in a zip code, so individual households can be much higher or lower.
+
+## (20 points) Code of Ethics for Data Visualization Portfolio Entry:
+
+I'm interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined [Code of Ethics](https://docs.google.com/document/d/1lMvzPTGUAaMnH0KPibShQ1ualuo8uqICCexkh8zmsW8/edit?usp=sharing). Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.
+
+AI was helpful to me in structuring this post especially helping me walk through a couple of bugs when I initially tried creating the searchable data table, I got the inspiration from my Statistical Modeling class and in the beginning i ran into many bugs trying to recreate it but AI was able to help me troubleshoot them. It also helped me read in the data and navigate to it.

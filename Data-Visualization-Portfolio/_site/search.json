@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Welcome To My Portfolio\n\n\n\nwelcome\n\nmaps\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Hennepin County Zip Codes: An Interactive Map\n\n\n\nmaps\n\nhennepin\n\ninteractive\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nMedian Household Income by Zip Code in Hennepin County\n\n\n\nmaps\n\nhennepin\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
+    "text": "Can We Predict Which Applications Get Worker Review? Comparing Three Models\n\n\n\nmachine learning\n\nhennepin\n\n\n\n\n\n\n\n\n\nNov 7, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Portfolio\n\n\n\nwelcome\n\nmaps\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Hennepin County Zip Codes: An Interactive Map\n\n\n\nmaps\n\nhennepin\n\ninteractive\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nMedian Household Income by Zip Code in Hennepin County\n\n\n\nmaps\n\nhennepin\n\n\n\n\n\n\n\n\n\nOct 18, 2026\n\n\nKhalid Shire\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 14, 2025\n\n\nHarlow Malloc\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -138,5 +138,61 @@
     "title": "About",
     "section": "",
     "text": "Long term, I want to work in ML infrastructure and MLOps: deployment pipelines, distributed systems, and production ML. This portfolio is where I’ll show the visualization side of that."
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html",
+    "href": "posts/ml-roc-curves/index.html",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "",
+    "text": "For my group’s Hennepin County project, we look at over 240,000 applications and ask what leads a worker to process one by hand. I wanted to know whether basic information about an application could predict it. I tried three machine learning models, using each application’s age, application method (online or paper), and race to predict whether a worker processed it."
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html#what-i-was-trying-to-find-out",
+    "href": "posts/ml-roc-curves/index.html#what-i-was-trying-to-find-out",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "",
+    "text": "For my group’s Hennepin County project, we look at over 240,000 applications and ask what leads a worker to process one by hand. I wanted to know whether basic information about an application could predict it. I tried three machine learning models, using each application’s age, application method (online or paper), and race to predict whether a worker processed it."
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html#the-chart",
+    "href": "posts/ml-roc-curves/index.html#the-chart",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "The chart",
+    "text": "The chart\n\n\n\nROC curves for three models predicting whether a worker processed an application"
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html#how-to-read-it",
+    "href": "posts/ml-roc-curves/index.html#how-to-read-it",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "How to read it",
+    "text": "How to read it\n\nEach line is one model: logistic regression, a decision tree, and a random forest.\nThe dashed diagonal line is random guessing. A model on that line is no better than a coin flip.\nA curve that bends toward the top-left corner is a good model. The closer it gets, the better it separates applications a worker processed from the ones they didn’t.\nAUC is the area under a curve. 0.5 means guessing and 1.0 means perfect.\nThe curves use the testing data, which is 25% of the applications, set aside and never used to train the models. I split the data so that the share of worker-processed applications (about 18%) is the same in the training and testing sets."
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html#what-i-noticed",
+    "href": "posts/ml-roc-curves/index.html#what-i-noticed",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "What I noticed",
+    "text": "What I noticed\nAll three models are close to guessing:\n\n\n\nModel\nAUC\n\n\n\n\nLogistic regression\n0.507\n\n\nDecision tree\n0.500\n\n\nRandom forest\n0.554\n\n\n\nThe random forest did best, but it’s still weak. This matches what I found earlier in the project: online and paper applications are processed by a worker at nearly the same rate (18.5% vs. 17.8%). Age, application method, and race don’t explain which applications get worker review."
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html#why-this-still-helps-the-project",
+    "href": "posts/ml-roc-curves/index.html#why-this-still-helps-the-project",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "Why this still helps the project",
+    "text": "Why this still helps the project\nA weak result is useful. It tells my group to stop looking at these basic fields and to look at other columns, such as the application status, to explain what sends an application to a worker."
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html#a-note-on-the-data",
+    "href": "posts/ml-roc-curves/index.html#a-note-on-the-data",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "A note on the data",
+    "text": "A note on the data\nThe Hennepin County application data is private, so this post shows only the model results and not the underlying data."
+  },
+  {
+    "objectID": "posts/ml-roc-curves/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "href": "posts/ml-roc-curves/index.html#points-code-of-ethics-for-data-visualization-portfolio-entry",
+    "title": "Can We Predict Which Applications Get Worker Review? Comparing Three Models",
+    "section": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:",
+    "text": "(20 points) Code of Ethics for Data Visualization Portfolio Entry:\nI’m interested in understanding your process for completing all the questions in this assignment. Please tell me about the tools and resources—including any use of AI—that helped you with your work. Please remember to follow the outlined Code of Ethics. Because our understanding of how to work with AI tools is emerging, please err on the side of including too much detail rather than too little.\nAI was helpful to me in structuring this post especially since initially everything was all over the place. I was also confused on how we were suppose to reference the plot without the code, AI was very useful in helping me figure that out."
   }
 ]
